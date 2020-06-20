@@ -1,0 +1,29 @@
+class FontSize {
+  static double TITLE = 45;
+  static double TITLE2 = 25;
+  static double TITLE_APPBAR = 20;
+  static double TITLE_PRICE_DETAIL = 25;
+  static double TITLE_BANNER = 17;
+  static double TITLE_LOGIN = 19;
+  static double TITLE_LOGIN4 = 15;
+  static double TITLE_LOGIN3 = 15;
+  static double TITLE_LOGIN2 = 18;
+  static double TITLE_ITEM_BANNER = 18;
+  static double TITLE_ITEM_TRAVEL = 20;
+  static double TITLE_ITEM_CONTENT_TRAVEL = 12;
+  static double TITLE_ITEM_CONTENT_BANNER = 13;
+  static double ITEM_STAR_BANNER = 12;
+  static double ITEM_MENU = 13;
+  static double TITLE_ITEM = 15;
+  static double TITLE_STATUS_TIME = 11;
+  static double TITLE_LENG_LIST = 15;
+  static double TIME_ITEM = 25;
+  static double TIME2_ITEM = 14;
+  static double TIME3_ITEM = 10;
+  static double HINT_SIZE_LOGIN = 13;
+  static double TEXT_FORGOT_PASSWORD = 12;
+  static double TEXT_DETAIL = 13;
+  static double TEXT_TITLE = 16;
+  static double TEXT_ALL = 11;
+  static double TEXT_ITEM_HOTEL = 10;
+}

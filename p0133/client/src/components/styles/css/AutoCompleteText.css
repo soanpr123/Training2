@@ -1,0 +1,191 @@
+.list{
+    margin-top:5px;
+    color: #21242e;
+    font-size: 12px;
+}
+.down {
+    margin-top:0px;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.down div {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+}
+
+.line-profile {
+  width: 90%;
+}
+
+.name-profile {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  color: cornflowerblue;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+.low-character  {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  color: cornflowerblue;
+  /* word-wrap: break-word; */
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+  padding: 10px 10px;
+  height: 8vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.name-profile-first-last{
+  font-style: italic;
+  font-size: 11px;
+  color:darkgray;
+}
+.email-profile {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  color: darkgray;
+  margin-bottom: 0px;
+}
+.notUser{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+  border-style: solid;
+  border-color: #E1E1E1;
+  resize: none;
+  z-index: 1;
+}
+.MoreFriend{
+    width: 30%;
+    margin-top:0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+}
+.responseNotUser{
+
+    color:black;
+}
+.No_account{
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  line-height: 40px;
+}
+
+.no-user-box {
+  position: relative;
+  width: 100%;
+}
+.searchpic{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 4px;
+}
+.allinclude{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+#match-list {
+  position: relative;
+  margin-top: -1px;
+}
+
+.list-email-search{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 10;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.search_zone{
+    width: 100%;
+    border-radius: 0;
+    background-color: white;
+    padding-left: 30px !important;
+    border-radius: 25px;
+}
+.search_zone:focus{
+  outline: none;
+  border-color:transparent;
+}
+.full{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.imgGroup{
+    width: 24px;
+    height: 14px;
+    top:10px;
+    margin: 0 5px 0 5px;
+    border-radius: 10%;
+}
+
+.add-btn{
+  border: none;
+  width:35px;
+  line-height: 0;
+  margin-right: 10px;
+  padding: 14px 10px 14px 10px;
+  font-size: 17px;
+}
+.add-btn:hover{
+  background-color: #cecdcd;
+}

@@ -1,0 +1,39 @@
+version: '2' # specify docker-compose version
+# Define the services/containers to be run
+services:
+  # docker-compose.yml
+# Add this top-level entry
+  redis:
+    image: redis
+    container_name: cache
+    ports:
+      - 8561:6379
+  webrtc-prototype-frontend: #name of the first service
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "8556:80" # specify port forewarding
+      # - "8562:443"
+    container_name: webrtc-prototype-frontend-container
+    restart: always
+    # volumes :
+    #   - ./client/voispy.com.crt:/etc/nginx/voispy.com.crt
+    #   - ./client/voispy.com.key:/etc/nginx/voispy.com.key
+  webrtc-prototype-backend: #name of the second service
+    build:
+      context: ./react-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8557:3000" #specify ports forewarding
+      - "8560:3005"
+    container_name: webrtc-prototype-backend
+    volumes :
+      - ./public/avatars:/usr/src/app/public/avatars
+      - ./public/files:/usr/src/app/public/files
+      - ./public/histo:/usr/src/app/public/histo
+    restart: always
+    links:
+      - redis
+    environment:
+      - REDIS_URL=redis://cache

@@ -1,0 +1,14 @@
+{
+  "prod": {
+    "user": "ccne",
+    "host": "112.137.129.128",
+    "port": "23456",
+    "files": "dist/client dist/backend",
+    "path": "/opt",
+    "pre-deploy-local": "",
+    "pre-deploy-remote": "",
+    "post-deploy": "cd /opt/backend && yarn install && pm2 restart all"
+  },
+  "dev": {},
+  "staging": {}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ffluttertraning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flutter-rtc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flutter_appp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobile-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shopapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shopfoodd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webrtc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webrtc2" vcs="Git" />
+  </component>
+</project>

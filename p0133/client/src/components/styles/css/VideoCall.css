@@ -1,0 +1,365 @@
+.video_call_container {
+    position: absolute;
+    top:0;
+    padding: 60px 0 0px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    height: 100% !important;
+    width:100% !important;
+    min-height: auto !important;
+    max-height: none !important;
+}
+.video_container{
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.localVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2
+}
+.video-remote-container{
+  position: relative;
+  width:100%;
+  height: 100%;
+}
+.friendVideo {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
+}
+.friendVideo2{
+  width:50%;
+}
+.friendVideo3{
+  margin:0;
+  width:50%;
+  height:50%;
+  /* position: absolute; */
+}
+.friendVideo4{
+  margin:0;
+  width:50%;
+  height:50%;
+  /* position: absolute; */
+}
+.friendVideo4to8{
+  width:25%;
+  height:50%;
+}
+.friendVideo8to12{
+  width:25%;
+  height:33.33%;
+}
+.localVideoOnCall{
+  position: absolute;
+  z-index: 2;
+  width:200px;
+  height: auto;
+  bottom:65px;
+  left:35px;
+  min-height: auto !important;
+  max-height: none !important;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(255, 253, 253, 0.18);
+          box-shadow: 0px 0px 3px 1px rgba(255, 253, 253, 0.18);
+}
+
+.video {
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.video-remote-name-container{
+  top: 7px;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+.video-remote-name{
+  border: 1px solid #aeaeae;
+  background-color: rgba(0, 0, 0, 0.51);;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+}
+.video-open-chat {
+  width: calc(100% - 360px);
+  margin-left: 360px;
+}
+.video_call_txt {
+    color: white;
+}
+
+.is_calling {
+    border-style: solid;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    top:60px;
+    bottom: 60px;
+    left: 0px;
+    right: 0px;
+    padding: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+}
+
+.list-friend-to-invite {
+    position: absolute;
+    top: 35%;
+    width: 350px;
+    height: 271px;
+    color: black;
+    left: 0;
+    right: 0;
+    margin:auto;
+    background-color: white;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 9;
+    border-radius: 5px;
+}
+.add-friend-video-call-title{
+  padding: 10px 0 10px 0;
+  font-weight: 550;
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+.list-friends{
+  position: relative;
+  padding-top: 10px;
+}
+.friend-call-wrapper{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.cancel-icon{
+  opacity: 0.6;
+  height: 14px;
+  cursor: pointer;
+}
+.cancel-icon:hover{
+  opacity: 1
+}
+.add-friend{
+  width:60px;
+}
+
+.list-friends-container{
+  overflow-y: auto;
+  max-height: 210px;
+}
+.add-friend-group-call{
+  width: 100%;
+  margin-top: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 12px !important;
+}
+.close-friend {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.infor-add-friend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.add-friend div {
+  margin-top: 10px
+}
+
+.infor-add-friend input {
+    margin-right: 7px;
+}
+.is_calling div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.buttons {
+  position: relative;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.buttons button {
+    border-radius: 10px;
+}
+
+.caller-name{
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+.add-friend-video-call-name{
+  margin:0;
+  white-space: nowrap;
+  max-width: 138px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+.add-friend-video-call-status-name{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 7px;
+}
+
+.video-layout-button-container{
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  right: 30px;
+  top: 7px;
+}
+
+.layout-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(159, 157, 157, 0.34);;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  height: 35px;
+  width: 35px;
+  margin-left: 5px;
+}
+.layout-icon-wrapper:hover {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(159, 157, 157, 0.5);
+}
+.layout-icon{
+  height: 17px;
+  width: 17px;
+}
+.spectator-video{
+  height: auto;
+  width: 250px;
+
+}
+.spectator-video:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+.presenter-video{
+
+}
+.video-grid-container{
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.video-presenter-container{
+  height: 100%;
+  width: 80%
+}
+.video-spectator-container{
+  height: 100%;
+  width: 20%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.layout-icon-wrapper-active{
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.73);
+  background-color: rgba(159, 157, 157, 0.75);
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/* -----Mobile Styling start----- */
+@media only screen and (max-width: 480px) {     /*  Mobile phone */
+  .localVideoOnCall{
+    width:100px;
+    height: auto;
+    bottom:65px;
+    left:15px;
+  }
+  .list-friend-to-invite{
+    width:80%;
+  }
+  .add-friend-video-call-status-name{
+    width:80%;
+  }
+  .video {
+    width: 100%;
+  }
+  .video-layout-button-container{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 812px) {      /*  Mobile landscape phone */
+  .localVideoOnCall{
+    width:100px;
+    height: auto;
+    bottom:65px;
+    right:15px;
+  }
+  .list-friend-to-invite{
+    width:80%;
+  }
+  .add-friend-video-call-status-name{
+    width:80%;
+  }
+  .video {
+    width: 100%
+  }
+  .video-layout-button-container{
+    display: none;
+  }
+  .video-open-chat{
+    margin-left: 0;
+  }
+}
+/* -----Mobile Styling end----- */

@@ -1,0 +1,19 @@
+{
+  "name": "p0133-webrtc-real-time-communication-app",
+  "version": "1.0.0",
+  "description": "Web RTC app for communication",
+  "main": "server.js",
+  "scripts": {
+	"deploy":"./build.sh && deploy-app -d prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.bachasoftware.com/B2/p0133-webrtc-real-time-communication-app.git"
+  },
+  "author": "Albert Corentin, Arnou Adelin, Gallais Pacome, Lecouillard Cedric",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "deploy-app": "^1.0.3"
+  }
+}
